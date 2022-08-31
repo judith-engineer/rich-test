@@ -4,6 +4,7 @@ pipeline {
 			stage('1-clone-judith'){
 				steps{
 					sh 'echo "I am an Engineer"'
+				}
 				
 			}
 			stage('2-systemcheck-judith'){
